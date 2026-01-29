@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>NL Frutas Noite</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+button {
+  background: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+<h2>NL Frutas Noite</h2>
+
+<input placeholder="Código do Produto">
+<input placeholder="Nome do Produto" disabled>
+<input placeholder="Código da Loja">
+<input placeholder="Quantidade que falta">
+
+<button>Adicionar</button>
+
+</body>
+</html>
